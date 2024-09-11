@@ -44,11 +44,12 @@ while (exibirMenu)
             break;
 
         case "4":
-            exibirMenu = false;
+            Console.WriteLine("Encerrando o programa.");
+            exibirMenu = false; // Sai do loop e encerra o programa
             break;
 
         default:
-            Console.WriteLine("Opção inválida");
+            Console.WriteLine("Opção inválida. Tente novamente.");
             break;
     }
 
